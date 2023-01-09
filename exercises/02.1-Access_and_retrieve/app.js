@@ -1,8 +1,14 @@
-//declaring the array
+// Declaring the array
 let myArray = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
 
-//1. print the item here
+// 1. Print the item here
 
-//2. change 'thursday'a value here to null
+console.log(myArray[2]);
 
-//3. print the position of step 2
+// 2. Change 'thursday' value to null
+
+myArray[4] = null;
+
+// 3. Print the position of step 2
+
+console.log(myArray[4]);

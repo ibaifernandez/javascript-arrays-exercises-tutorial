@@ -9,4 +9,9 @@ let tasks = [
 	{ label: 'Make a trip', done: false }
 ];
 
-//your code here
+let finishedTasks = tasks.filter(x => {
+	if (x.done === true)
+	return x
+});
+
+console.log(finishedTasks);

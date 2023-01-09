@@ -7,3 +7,6 @@ for(let key in contact){
     // Code goes here
 }
 
+for (let property in contact) {
+    console.log(`${property} : ${contact[property]}`)
+}
